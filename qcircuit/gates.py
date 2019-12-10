@@ -1,10 +1,7 @@
-import numpy as np
-import pandas as pd
-from functools import reduce
-import numpy.random as random
-import matplotlib.pyplot as plt
-import scipy.sparse
 import operator
+from functools import reduce
+import numpy as np
+import scipy.sparse
 
 class gates: 
     i = np.complex(0, 1)
